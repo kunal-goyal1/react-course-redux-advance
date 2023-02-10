@@ -1,0 +1,44 @@
+.productitem h3 {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    color: #44eb38;
+}
+
+.productitem header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.productprice {
+  border-radius: 30px;
+  padding: 0.15rem 1.5rem;
+  background-color: #3a3a3a;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.description{
+  color: white;
+}
+
+.productactions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.productactions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #44eb38;
+  border: 1px solid #44eb38;
+}
+
+.productactions button:hover{
+    background-color: #44eb38;
+    border-color: #1ac5d1;
+    color: white;
+}
